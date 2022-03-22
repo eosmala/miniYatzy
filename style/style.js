@@ -34,6 +34,7 @@ export default StyleSheet.create({
     margin: 10,
   },
   gameboard: {
+    marginTop:10,
     alignItems: 'center',
     justifyContent: 'center'
   },
@@ -66,6 +67,13 @@ export default StyleSheet.create({
     fontSize: 20
   },
   points: {
-    alignItems: 'center'
+    alignItems: 'center',
+    margin: 5,
+  },
+  total: {
+    fontWeight: 'bold',
+    fontSize: 23,
+    textAlign: 'center',
+    margin: 10,
   }
 });
